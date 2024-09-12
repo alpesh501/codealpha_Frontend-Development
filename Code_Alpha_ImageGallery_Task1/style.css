@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.gallery-container {
+    text-align: center;
+}
+
+.gallery {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
